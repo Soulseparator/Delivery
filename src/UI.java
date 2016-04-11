@@ -26,7 +26,6 @@ public class UI implements restaurantReady{
 		Restaurant restaurant = new Restaurant(selection, this);
 		restaurant.start();
 	}
-
 	@Override
 	public void foodCooked(Food food) {
 		System.out.println(food.getName() + ". " + "Your food has been cooked!");
