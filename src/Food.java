@@ -35,5 +35,4 @@ public class Food {
 	public void setCookingTime(double cookingTime) {
 		this.cookingTime = cookingTime;
 	}
-	
 }

@@ -11,7 +11,6 @@ public class UI implements restaurantReady{
 		UI ui = new UI();
 		for(int i=0; i<5; i++)
 			ui.promt();
-		
 	}
 	public void promt(){
 		Food pizza = new Food("Hawaian pizza", 10.9, 0.2);
