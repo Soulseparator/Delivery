@@ -18,3 +18,4 @@ public class Restaurant extends Thread{
 		ready.foodCooked(food);
 	}
 }
+// asd poluchilos
