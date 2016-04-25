@@ -1,11 +1,29 @@
 package orderingSystem;
 
 import javax.swing.JOptionPane;
-
+import java.sql.*;
 public class UI implements restaurantReady{
 
 	public static void main(String[] args) {
 
+	/*	try {
+			// 1) get connection to database
+
+			Connection myConn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/restaurant_soft", "restaurant_soft","123456");
+
+			// 2) create a statement
+			Statement myStmt = myConn.createStatement();
+			// 3) execute a SQL query
+			ResultSet myRs = myStmt.executeQuery("select * from employee");
+			// 4) process the result set
+
+			while (myRs.next())
+				System.out.println(myRs.getString("last_name")+ ", "+ myRs.getString("first_name"));
+		}
+		catch (Exception exc){
+			exc.printStackTrace();
+		}
+        */
 		//list of food
 		//pass the order from customer to the restaurant
 		UI ui = new UI();
